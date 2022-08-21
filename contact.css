@@ -1,0 +1,217 @@
+body {
+    background: url('imgFOND.webp') no-repeat fixed  ;
+    height: 100vh;
+    background-size:1600px 800px;
+    background-position: inherit inherit;
+    background-color:  rgba(247, 248, 248, 0);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    
+
+}
+
+navbar-nav a {
+    font-family: Bookman Old Style;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show .nav-link {
+    color:black;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: black;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: 2rem 1rem;
+    color: rgb(1, 6, 10);
+}
+
+.nav-link.active,
+.nav-link:focus {
+    color:black !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(255, 255, 255, 0.953);
+        color: #eee;
+       
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+.button {
+    background-color: #2105f7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.animate__animated.animate__bounce {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    --animate-duration: 5s;
+    color: rgba(44, 26, 181, 0.908);
+}
+p {
+    color: rgb(253, 253, 253);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.cntct
+{
+    text-align: center;
+    justify-content: 80%;
+}
+
+/*.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    --animate-duration: 3s;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+}
+.content p
+{
+    font-size: 15px;
+    color: black;
+
+}
+    */
+
+    .card-body {
+        background: #eee;
+        padding: 40px 0px;
+      }      
+      
+      .card {
+        width: 210px;
+        margin: 20px auto;
+        background-color:white;
+       
+        box-shadow: 0px 5px 20px #555;  
+        }
+    .card-image {  
+        height: 250px;        
+        position:relative;
+        overflow:hidden;          
+        filter: grayscale(1);
+        transition-property: filter width;
+        transition-duration: .3s; 
+        }
+.card-body {
+        text-align:center; 
+        padding: 10px 10px; 
+        box-sizing: border-box;
+    
+      }   
+.card-title, .card-exceprt {
+         font-family: 'Playfair Display', serif;
+        
+      }
+.card-excerpt p
+    {
+        color: black;
+    }
+
+
+      
+    .card1-body {
+        background: #eee;
+        padding: 40px 0px;
+      }      
+      
+      .card1 {
+        width: 210px;
+        margin: 20px auto;
+        margin-left: 50px;
+        
+        background-color:white;
+        box-shadow: 0px 5px 20px #555;  
+        }
+    .card1-image {  
+        height: 250px;        
+        position:relative;
+        width: 100%;
+        overflow:hidden; 
+        
+        transition-property: filter width;
+        transition-duration: .3s; 
+        }
+.card1-body {
+        text-align:center; 
+        padding: 10px 10px; 
+        box-sizing: border-box;
+      }   
+.card1-title, .card1-exceprt {
+         font-family: 'Playfair Display', serif;
+        
+      }
+.card1-excerpt p
+    {
+        color: black;
+    }
+.mescartes
+{
+    display:inline-flex;
+    flex-direction: row;
+}
+
+
+      

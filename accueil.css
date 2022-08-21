@@ -1,0 +1,159 @@
+h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: Algerian;
+
+}
+
+
+navbar-nav a {
+    font-family: Bookman Old Style;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: 2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 5s;
+}
+
+p {
+    color: rgb(253, 253, 253);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+body {
+    background: url('mbour.jpg') no-repeat fixed;
+    filter: saturate(50%);
+    height: 100vh;
+    background-size: cover;
+    background-position: inherit inherit;
+    background-color: rgba(117, 190, 218, 0.0);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    
+
+}
+
+.button {
+    background-color: #92eef5;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.animate__animated {
+    color: black;
+    font-family: Algerian;
+}
+
+header
+{
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 5%;
+}
+
+header .logo a
+{
+    font-size: 25px;
+    color: aqua;
+    text-decoration: 0;
+    display: contents;
+    flex-direction: row-reverse;
+}
+header .logo a span
+{
+    color: #fff;
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.menu li
+{
+    margin: 0 15px;
+    list-style-type: none;
+    margin-right: 0px;
+    
+}
+
+.menu a
+{
+    color: #fff;
+    font-size: large;
+    margin: 0 15px;
+    margin-right: 0px;
+}

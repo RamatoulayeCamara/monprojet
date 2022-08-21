@@ -1,0 +1,111 @@
+h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family:cursive;
+    color:black;
+
+}
+
+
+navbar-nav a {
+    font-family: Bookman Old Style;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: 2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+.animate__animated.animate__bounce {
+    font-family: 'Times New Roman', Times, serif;
+    --animate-duration: 5s;
+}
+
+p {
+    color: rgb(253, 253, 253);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+body {
+    background: url('Ugb.webp') no-repeat fixed;
+    height: 100vh;
+    background-size: 1600px;
+    background-position: inherit inherit;
+    background-color: rgba(117, 190, 218, 0.0);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+}
+
+.button {
+    background-color:rgb(91, 39, 2);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.animate__animated {
+    color:black;
+    font-family: serif;
+    font-size: 20px;
+}
